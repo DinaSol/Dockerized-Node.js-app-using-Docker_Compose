@@ -31,7 +31,7 @@ services:
     depends_on:
       - 'redis'
     ports:
-      - '81:5000'
+      - '82:5000'
   nginx:
     build: ./nginx/
     image: 'nginx'
